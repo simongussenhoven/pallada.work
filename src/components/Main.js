@@ -5,7 +5,7 @@ import FadeIn from 'react-fade-in/lib/FadeIn'
 const Main = () => {
     return(
         <FadeIn>
-            <header class="jumbotron jumbotron-fluid vh-100">
+            <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-1">Rosan Pallada</h1>
                 <h2>Erfgoed Ontwikkelaar</h2>
@@ -14,7 +14,7 @@ const Main = () => {
                 </AnchorLink>
             </div>
         </header>
-        <section id="heritage" className="p-5 text-center high d-flex vh-100">
+        <section id="heritage" className="p-5 text-center high d-flex">
             <div className="container my-auto">
             <h2 className="display-3">Erfgoed ontwikkeling en advies</h2>
             <p className="p-md-5">Sinds 2020 werk ik zelfstandig als (gedelegeerd) ontwikkelaar en adviseur, na ervaring opgedaan te hebben als onderzoeker aan de TU Delft, het NRP en de Erfgoedfabriek, en als ontwikkelaar bij MeyerBergman Erfgoed Groep (MBEG). Momenteel werk ik voor MBEG aan de herbestemming van Paleis Soestdijk en ben ik adviseur voor (tijdelijke) culturele programmering. </p>
@@ -22,7 +22,7 @@ const Main = () => {
             <Link to="/onderzoek/" className="my-5"><Button variant="outline-secondary">Lees meer</Button></Link>
             </div>      
         </section>
-        <div class="jumbotron jumbotron-fluid vh-100 text-center d-flex vh-100">
+        <div class="jumbotron jumbotron-fluid text-center d-flex">
             <div class="container my-auto">
                 <h1 class="display-2">Over mij</h1>
                 <p>Mijn hart ligt bij erfgoed, in welke vorm dan ook. Het is mijn doel om middels mijn werkzame leven leegstaande plekken en gebouwen weer nieuw leven in te blazen; verloren verhalen over te brengen en erfgoed weer geliefd te maken bij een groot publiek. Dit doe ik graag in samenwerking met gelijkgestemden: Erfgoedliefhebbers met een intrinsieke motivatie en een gedegen moraal kompas.</p>
