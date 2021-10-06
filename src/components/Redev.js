@@ -26,7 +26,7 @@ const Redev = () => {
                             <p>Paleis Soestdijk wordt een onafhankelijk podium voor de kroonjuwelen van de Nederlandse maak- en kennisindustrie en worden de successen van innoverend Nederland gevierd. Op gelaagde en interactieve wijze wordt in het paleis en het omringende park het beste dat Nederland te bieden heeft gepresenteerd op het gebied van water, agricultuur & voeding, energie en gezondheid.</p>
                             <p>Meer weten over de toekomstplannen van Paleis Soestdijk? </p>
                             <div className="w-100 text-center text-md-left">
-                                <a href="https://www.paleissoestdijk.nl/"><Button variant="outline-primary">Lees meer</Button></a>
+                                <a target="_blank" rel="noreferrer" href="https://www.paleissoestdijk.nl/"><Button variant="outline-primary">Lees meer</Button></a>
                             </div>
                         </div>
                         <div className="col col-12 col-md-6">

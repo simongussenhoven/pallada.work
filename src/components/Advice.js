@@ -8,7 +8,7 @@ export default function Advice () {
             <header className="jumbotron jumbotron-fluid min-vh-100">
                 <div className="container p-5">
                     <h1 className="display-1">Advies</h1>
-                    <h2>Deskundig op het gebied van erfgoed, duurzaamheid, architectuur, planologische processen, financiën en (monumentale) herbestemmings/programmeringsvraagstukken. </h2>
+                    <h2>Deskundig op het gebied van erfgoed, duurzaamheid, architectuur, planologische processen, financiën en (monumentale) herbestemmings/<br className="d-md-none"/>programmeringsvraagstukken. </h2>
                     <AnchorLink href='#advies'>
                         <button className="btn btn-outline-danger">Lees meer</button>
                     </AnchorLink>

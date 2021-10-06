@@ -3,15 +3,15 @@ export default function Research() {
     return (
         <>
            <header className="jumbotron jumbotron-fluid min-vh-100" id="top">
-                <div className="container p-5">
+                <div className="container p-md-5">
                     <h1 className="display-1">Onderzoek</h1>
                     <h2>Werkzaamheden</h2>
-                    <ul className="py-4">
-                        <li><h2>Projectleider Route Religieus Erfgoed Hilversum (Vanuit landelijke aanpak Kerkenvisies, met COUP Collective)</h2></li>
-                        <li>Medeauteur van verscheidende onderzoeken aan de TU Delft/AMS Institute </li>
-                        <li>Scriptiebegeleider bij Scriptium voor erfgoed/vastgoed gerelateerde afstudeerders </li>
+                    <ul className="py-3 pt-md-3">
+                        <li><h3>Projectleider Route Religieus Erfgoed Hilversum (Vanuit landelijke aanpak Kerkenvisies, met COUP Collective)</h3></li>
+                        <li><h3>Medeauteur van verscheidende onderzoeken aan de TU Delft/AMS Institute</h3> </li>
+                        <li><h3>Scriptiebegeleider bij Scriptium voor erfgoed/vastgoed gerelateerde afstudeerders</h3> </li>
                     </ul>
-                    <AnchorLink href='#research'>
+                    <AnchorLink href='#research' className="d-flex text-md-left">
                         <button className="btn btn-outline-danger">Lees meer</button>
                     </AnchorLink>
                 </div>
@@ -55,7 +55,7 @@ export default function Research() {
                     </div>
                 </div>
             </section>
-            <section id="research" className="text-center d-flex flex-column min-vh-100 border-bottom">
+            <section id="research" className="text-center d-flex min-vh-100 border-bottom">
                 <div className="container my-auto">
                     <div className="row py-5">
                         <div className="col col-12 my-auto">
@@ -77,7 +77,7 @@ export default function Research() {
                 <div className="container my-auto">
                     <div className="row py-5">
                         <div className="col col-12 my-auto">
-                            <h2 className="display-4">Afstudeeronderzoek TU Delft 2017 Faculteit Bouwkunde – Management in the Built Environment </h2>
+                            <h2 className="display-3">Afstudeeronderzoek TU Delft 2017 Faculteit Bouwkunde – Management in the Built Environment </h2>
                         </div>
                     </div>
                     <div className="row">

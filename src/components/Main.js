@@ -35,7 +35,7 @@ const Main = () => {
             </section>
             <section className="min-vh-100 d-flex text-center flex-column" id="res">
                 <div className="container my-auto">
-                    <h1 className="display-4 py-4 py-md-5">Herontwikkeling en transformatie</h1>
+                    <h1 className="display-2 py-4 py-md-5">Herontwikkeling en transformatie</h1>
                     <p className="py-2"> Herontwikkeling en/of transformatie geeft bestaande gebouwen een nieuw leven. Dit zorgt niet alleen voor het voortbestaan van karakteristiek vastgoed en de bijbehorende herinneringen en verhalen, maar ook voor hergebruik van bestaand materiaal. Bij nieuwbouw dient dit materiaal gedolven te worden, bij sloop gaat er veel waarde van het materiaal verloren; zelfs wanneer er wordt gerecycled . Zo zit er in gebouwen, net als in bomen, een hoop CO2 opgeslagen. Behoud van onze gebouwen is dus goed voor onze cultuur en natuur.</p>
                     <p className="py-2">Hergebruik is per definitie duurzaam, maar de mate van duurzaamheid hangt ook af van de juiste keuzes op energetisch, materieel en sociaal gebied. Deze keuzes moeten goed op elkaar afgestemd zijn om een win-win situatie te kunnen creëren. Daarvoor dient integraal naar de plek en het vastgoed gekeken te worden, met voldoende know-how van alle expertises. </p>
                     <p className="py-2">Zoekt u hulp bij het duurzaam herontwikkelen of transformeren van uw vastgoed of weet u een leuk project? Neem dan contact op!</p>

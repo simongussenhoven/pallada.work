@@ -1,17 +1,21 @@
 import {Navbar, Container, Nav} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
-import FadeIn from 'react-fade-in'
-function Navigation (){
-    return (
+import {useState} from 'react'
 
+function Navigation (props){
+    const [route, setRoute] = useState("home")
+    const handleClick = (event) => {
+        console.log(event)
+    }
+    return (
+        
             <nav>
-                <FadeIn>
                 <Navbar bg="light" expand="lg" id="nav">
                 <Container>
-                <Link to="/"><Navbar.Brand>Home</Navbar.Brand></Link>
+                <Link to="/" onClick={() => {handleClick("home")}} className={route === "home" ? "active" : ""}><Navbar.Brand>Home</Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="me-auto" >
                     
                     <Nav.Link as={Link} to="/herontwikkeling-en-transformatie">Herontwikkeling en transformatie</Nav.Link>
                     <Nav.Link as={Link} to="/advies">Advies</Nav.Link>
@@ -29,7 +33,7 @@ function Navigation (){
                 </Navbar.Collapse>
             </Container>
             </Navbar>
-            </FadeIn>
+
             </nav>
 
     )
