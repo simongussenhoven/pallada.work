@@ -1,16 +1,15 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import {Button} from 'react-bootstrap'
-import FadeIn from 'react-fade-in/lib/FadeIn'
 const Redev = () => {
     return(
-        <FadeIn>
-            <header class="jumbotron jumbotron-fluid min-vh-100">
-                <div class="container">
-                    <h1 class="display-3">Herontwikkeling en transformatie</h1>
+        <>
+            <header className="jumbotron jumbotron-fluid min-vh-100">
+                <div className="container p-5">
+                    <h1 className="display-1">Herontwikkeling en transformatie</h1>
 
                     <AnchorLink href='#heritage'>
-                        <button class="btn btn-outline-danger">Lees meer</button>
+                        <button className="btn btn-outline-danger">Lees meer</button>
                     </AnchorLink>
                 </div>
             </header>
@@ -31,7 +30,7 @@ const Redev = () => {
                             </div>
                         </div>
                         <div className="col col-12 col-md-6">
-                            <img className="img-fluid" src="../images/paleis-soestdijk.jpg"></img>
+                            <img className="img-fluid" alt="soestdijk" src="../images/paleis-soestdijk.jpg"></img>
                         </div>
                     </div>
                 </div>
@@ -45,7 +44,7 @@ const Redev = () => {
                     </div>
                     <div className="row">
                         <div className="col col-12 col-md-6">
-                            <img className="img-fluid" src="../images/landgoed-voorlei.jpg"></img>
+                            <img className="img-fluid" alt="voorlei" src="../images/landgoed-voorlei.jpg"></img>
                             <p><small>Afbeelding via hetkrantje-online</small></p>
                         </div>
                         <div className="col col-12 col-md-6 text-md-left">
@@ -77,7 +76,7 @@ const Redev = () => {
                             </div>
                         </div>
                         <div className="col col-12 col-md-6">
-                            <img className="img-fluid" src="../images/houtzagerij-gennep.jpg"></img>
+                            <img className="img-fluid" alt="gennep" src="../images/houtzagerij-gennep.jpg"></img>
                         </div>
                     </div>
                 </div>
@@ -86,12 +85,12 @@ const Redev = () => {
                 <div className="container my-auto">
                     <div className="row py-5">
                         <div className="col col-12 my-auto">
-                            <h2 className="display-3">Herbestemming ensemble voormalig Pompstation (planvorming)</h2>
+                            <h2 className="display-4">Herbestemming ensemble voormalig Pompstation (planvorming)</h2>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col col-12 col-md-6">
-                            <img className="img-fluid" src="../images/landgoed-voorlei.jpg"></img>
+                            <img className="img-fluid" alt="voorlei" src="../images/landgoed-voorlei.jpg"></img>
                             <p><small>Afbeelding via hetkrantje-online</small></p>
                         </div>
                         <div className="col col-12 col-md-6 text-md-left">
@@ -105,7 +104,7 @@ const Redev = () => {
                     </div>
                 </div>
             </section>
-        </FadeIn>
+        </>
     )
 }
 export default Redev

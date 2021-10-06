@@ -1,16 +1,16 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import FadeIn from "react-fade-in"
+
 import { Button } from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 export default function Advice () {
     return(
-        <FadeIn>
-            <header class="jumbotron jumbotron-fluid min-vh-100">
-                <div class="container">
-                    <h1 class="display-3">Advies</h1>
+        <>
+            <header className="jumbotron jumbotron-fluid min-vh-100">
+                <div className="container p-5">
+                    <h1 className="display-1">Advies</h1>
                     <h2>Deskundig op het gebied van erfgoed, duurzaamheid, architectuur, planologische processen, financiën en (monumentale) herbestemmings/programmeringsvraagstukken. </h2>
                     <AnchorLink href='#advies'>
-                        <button class="btn btn-outline-danger">Lees meer</button>
+                        <button className="btn btn-outline-danger">Lees meer</button>
                     </AnchorLink>
                 </div>
             </header>
@@ -48,6 +48,6 @@ export default function Advice () {
                     </div>
                 </div>
             </section>
-        </FadeIn>
+        </>
     )
 }

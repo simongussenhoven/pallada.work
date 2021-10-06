@@ -1,21 +1,18 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import FadeIn from "react-fade-in"
-import { Link } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
 export default function Research() {
     return (
-        <FadeIn>
-           <header class="jumbotron jumbotron-fluid min-vh-100">
-                <div class="container">
-                    <h1 class="display-3">Onderzoek</h1>
+        <>
+           <header className="jumbotron jumbotron-fluid min-vh-100" id="top">
+                <div className="container p-5">
+                    <h1 className="display-1">Onderzoek</h1>
                     <h2>Werkzaamheden</h2>
                     <ul className="py-4">
-                        <li>Projectleider Route Religieus Erfgoed Hilversum (Vanuit landelijke aanpak Kerkenvisies, met COUP Collective)</li>
+                        <li><h2>Projectleider Route Religieus Erfgoed Hilversum (Vanuit landelijke aanpak Kerkenvisies, met COUP Collective)</h2></li>
                         <li>Medeauteur van verscheidende onderzoeken aan de TU Delft/AMS Institute </li>
                         <li>Scriptiebegeleider bij Scriptium voor erfgoed/vastgoed gerelateerde afstudeerders </li>
                     </ul>
                     <AnchorLink href='#research'>
-                        <button class="btn btn-outline-danger">Lees meer</button>
+                        <button className="btn btn-outline-danger">Lees meer</button>
                     </AnchorLink>
                 </div>
             </header>
@@ -35,7 +32,7 @@ export default function Research() {
 
                         </div>
                         <div className="col col-12 col-md-6 px-5">
-                            <img className="img-fluid" src="../images/hilversum.jpg"></img>
+                            <img className="img-fluid" alt="hilversum" src="../images/hilversum.jpg"></img>
                         </div>
                     </div>
                 </div>
@@ -49,7 +46,7 @@ export default function Research() {
                     </div>
                     <div className="row">
                     <div className="col col-12 col-md-6 px-4">
-                            <img className="img-fluid" src="../images/ams.png"></img>
+                            <img className="img-fluid rounded" alt="ams" src="../images/ams.png"></img>
                         </div>
                         <div className="col col-12 col-md-6 text-md-left py-4">
                             <p><strong>Hilde Remøy, Darinka Czischke, Rosan Pallada, AMS Institute.</strong></p>
@@ -62,7 +59,7 @@ export default function Research() {
                 <div className="container my-auto">
                     <div className="row py-5">
                         <div className="col col-12 my-auto">
-                            <h2 className="display-3">Evaluatie Convenant Aanpak Kantorenleegstand Rotterda</h2>
+                            <h2 className="display-3">Evaluatie Convenant Aanpak Kantorenleegstand Rotterdam</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -70,8 +67,8 @@ export default function Research() {
                             <p><strong>Hilde Remøy, Rosan Pallada, Agnes Franzen, Fred Hobma TU Delft, Faculteit Bouwkunde Management in the Built Environment </strong></p>
                             <p>Een onderzoek naar de behaalde resultaten van het kantoren convenant van de gemeente Rotterdam uit 2011. Vier jaar na de start is onderzocht in hoeverre de doelstellingen van het convenant zijn behaald en in hoeverre de organisatie van de gemeente heeft bijgedragen aan het behalen van de doelen in het proces. De resultaten lieten zien wat goed werkt en waar nog ruimte is voor verbetering. Toekomstige stappen zijn aangegeven om deze verbeteringen te realiseren.</p>
                         </div>
-                        <div className="col col-12 col-md-6 px-5">
-                            <img className="img-fluid" src="../images/rotterdam.png"></img>
+                        <div className="col col-12 col-md-6">
+                            <img className="img-fluid" alt="rotterdam" src="../images/rotterdam.png"></img>
                         </div>
                     </div>
                 </div>
@@ -85,7 +82,7 @@ export default function Research() {
                     </div>
                     <div className="row">
                     <div className="col col-12 col-md-6 px-5 d-flex">
-                            <img className="img-fluid" src="../images/delft.png"></img>
+                            <img className="img-fluid" alt="delft" src="../images/delft.png"></img>
                         </div>
                         <div className="col col-12 col-md-6 text-md-left pt-5 mt-5">
                             <p><strong>Een onderzoek naar complexe hergebruikprocessen van erfgoedgebouwen, met een focus op de samenwerking tussen alle stakeholders.</strong></p>
@@ -93,6 +90,6 @@ export default function Research() {
                     </div>
                 </div>
             </section>
-        </FadeIn>
+        </>
     )
 }

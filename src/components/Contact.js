@@ -1,7 +1,6 @@
-import FadeIn from 'react-fade-in';
 export default function Contact() {
     return (
-        <FadeIn>
+        <>
             <header className="text-center py-5">
                 <h1 className="display-3">Contact</h1>
                 <p>Heb je een vraag of opmerking? Vul onderstaand contactformulier in.</p>
@@ -45,6 +44,6 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
-        </FadeIn>
+        </>
     )
 }

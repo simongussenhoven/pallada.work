@@ -1,10 +1,14 @@
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import {Navbar, Container, Nav} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
+import FadeIn from 'react-fade-in'
 function Navigation (){
     return (
-        <Navbar bg="light" expand="lg" id="nav">
-            <Container>
-                <Link to="/"><Navbar.Brand href="#home">Home</Navbar.Brand></Link>
+
+            <nav>
+                <FadeIn>
+                <Navbar bg="light" expand="lg" id="nav">
+                <Container>
+                <Link to="/"><Navbar.Brand>Home</Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -25,6 +29,9 @@ function Navigation (){
                 </Navbar.Collapse>
             </Container>
             </Navbar>
+            </FadeIn>
+            </nav>
+
     )
 }
 export default Navigation
