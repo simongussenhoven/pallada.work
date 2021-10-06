@@ -51,6 +51,6 @@
 }
 
 .nav {
-  z-index: 0;
+  display: inline-block;
 }
 /*# sourceMappingURL=index.css.map */

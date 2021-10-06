@@ -4,6 +4,8 @@ import Navigation from './Navigation'
 import FadeIn from 'react-fade-in';
 import Research from './Research'
 import Contact from './Contact'
+import Redev from './Redev'
+import Advice from './Advice'
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/" component={Main}/>
           <Route path="/onderzoek" component={Research}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/herontwikkeling-en-transformatie" component={Redev}/>
+          <Route path="/advies" component={Advice}/>
           </FadeIn>
         </Router>
       
