@@ -8,7 +8,9 @@ import Advice from './Advice'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ScrollToTop from './Helpers/ScrollToTop'
 
+
 function App() {
+  
   return (
     <Router>
       <Navigation/>

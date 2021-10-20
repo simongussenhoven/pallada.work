@@ -33,10 +33,10 @@ export default function Advice () {
                             <ul>
                                 <li>Het vinden van mogelijk functies binnen het vigerend bestemmingsplan/omgevingsplan</li>
                                 <li>Het uitzoeken van mogelijkheden van wijzigen van vigerend bestemmingsplan/omgevingsplan</li>
-                                <li>Het begeleiden van een bestemmingsplanwijzigin</li>
+                                <li>Het begeleiden van een bestemmingsplanwijziging</li>
                                 <li>Het vinden van een geschikt programma voor uw vastgoed/locatie</li>
                                 <li>Het vinden van de juiste exploitatie partner</li>
-                                <li>Het rondrekenen van de Business Cas</li>
+                                <li>Het rondrekenen van de Business Case</li>
                                 <li>Het vinden van externe financiering en subsidies</li>
                                 <li>Duurzaamheidsvraagstukken van uw (leegstaande) vastgoed</li>
                             </ul>

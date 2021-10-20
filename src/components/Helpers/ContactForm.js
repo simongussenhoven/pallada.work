@@ -11,7 +11,7 @@ export default function ContactForm() {
                         <Honeypot />
                         {success && <p>Bedankt voor je bericht, ik reageer zo spoedig mogelijk.</p>}
                         {error && (
-                            <p className="col-12 col-md-6 my-3  mx-1 px-4">Excuus, er gaat iets mis. Probeer het later nog eens.</p>
+                            <p className="col-12 col-md-6 my-3 mx-1 px-4">Excuus, er gaat iets mis. Probeer het later nog eens.</p>
                         )}
                         <div className="row d-flex">
                             <div className="col-12 col-md-6 my-3 px-5" >

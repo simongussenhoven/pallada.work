@@ -72,7 +72,7 @@ const Redev = () => {
                             <p>Op één van de mooiste plekjes van Noord-Limburg werkt de gemeente Gennep samen met de MeyerBergman Erfgoed Groep en SDK aan de herontwikkeling van een braakliggend terrein met voormalige brandweerkazerne. Het gebied grenst aan de oude Gennepermolen en een wandelpromenade langs de Niers.</p>
                             <p>Het stedenbouwkundig plan ‘De Houtzagerij’, afkomstig van diederendirrix architecten, is gebouwd op de historie en de bestaande waarden van het terrein en schetst tegelijkertijd een aantrekkelijk toekomstbeeld: De Genneperhuisweg wordt een schakelpunt van binnenstad naar natuur, van reuring naar rust. Met ruimte voor hoogwaardige woningen, een restauratieve of commerciële functie met terras aan de Niers en aantrekkelijke pleintjes, wandelroutes en uitzichtpunten. Met deze ontwikkeling wordt de entree van Gennep herdefinieerd; een plek waar nieuw en oud samenkomen. </p>
                             <div className="w-100 text-center text-md-left">
-                                <a href="https://www.paleissoestdijk.nl/"><Button variant="outline-primary">Lees meer</Button></a>
+                                <a href="https://www.voorlei.nl/"><Button variant="outline-primary">Lees meer</Button></a>
                             </div>
                         </div>
                         <div className="col col-12 col-md-6">
@@ -96,10 +96,7 @@ const Redev = () => {
                         <div className="col col-12 col-md-6 text-md-left">
                             <p>Plan voor duurzame transformatie van de bestaande gebouwen naar maximaal 8 wooneenheden. Voor liefhebbers met een wens uniek te wonen temidden van prachtige groene omgeving. Er is mogelijkheid tot bedrijf aan huis, werkplaats, B&B, atelier of studio. Het plan van REIN is passend bij de omgeving, en heeft veel aandacht voor het bestaande ensemble.</p>
                             <p>Er wordt gewerkt met circulair en lokaal materiaal (isolatie, inbouw). Daarnaast wordt er een innovatief grijswatersysteem toegepast waardoor de geschiedenis van de plek levend blijft. De bostuin grenzend aan spoor werkt mede als buffer voor de geluidsbelasting maar ook als voedselvoorziening en ter verhoging van de natuurwaarden en biodiversiteit. Tevens dient het afval als brandstof voor de biovergister. Toekomstige bewoners werken in gezamenlijk eigenaarschap aan het beheer en onderhoud van de locatie</p>
-                            <div className="w-100 text-center text-md-left">
-                                <a href="https://www.voorlei.nl/"><Button variant="outline-primary">Lees meer</Button></a>
-                                
-                            </div>
+
                         </div>
                     </div>
                 </div>
